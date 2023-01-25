@@ -36,7 +36,6 @@ func main() {
 			}
 
 			fmt.Println(composerData.Name, composerData.Version)
-			//fmt.Println(dir.Name(), composerData.Version)
 
 			// 2 run git tag $(version) in this dir
 			//cmd := exec.Command("git", "tag", composerData.Version)
@@ -44,6 +43,5 @@ func main() {
 			//cmd.Stdout = os.Stdout
 			//cmd.Start()
 		}
-
 	}
 }
